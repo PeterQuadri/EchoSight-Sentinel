@@ -10,6 +10,7 @@ datasets/
 augmented_dataset/
 emergency_sound_dataset/
 models/
+!models/best_model.pth
 extract/
 processed_data/
 *.zip
