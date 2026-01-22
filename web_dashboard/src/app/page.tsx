@@ -136,6 +136,12 @@ export default function Dashboard() {
         wsUrl = wsUrl.replace('ws://', 'wss://');
       }
 
+      // Robustness: Ensure path is correct
+      if (!wsUrl.includes('/ws/stream')) {
+        if (wsUrl.endsWith('/')) wsUrl = wsUrl.slice(0, -1);
+        wsUrl += '/ws/stream';
+      }
+
       console.log("🔌 Connecting to:", wsUrl);
       socketRef.current = new WebSocket(wsUrl);
 
