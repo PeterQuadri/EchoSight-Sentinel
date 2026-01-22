@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+flask
+twilio
+python-dotenv
+groq
+opencv-python
+numpy
+librosa
+torch
+torchaudio
+websockets
+python-multipart

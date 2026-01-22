@@ -1,0 +1,7 @@
+2026-01-03 13:48:55 | glass_breaking | 0.8615
+2026-01-03 13:49:00 | glass_breaking | 0.9366
+2026-01-03 13:49:05 | glass_breaking | 0.8801
+2026-01-03 13:49:10 | glass_breaking | 0.9827
+2026-01-03 13:49:15 | glass_breaking | 0.9195
+2026-01-03 13:49:20 | glass_breaking | 0.9527
+2026-01-03 13:49:25 | glass_breaking | 0.9705
